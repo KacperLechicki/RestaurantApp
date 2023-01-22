@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Http\Controllers\Frontend;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\Menu;
+
+class WelcomeController extends Controller
+{
+    
+    public function index() {
+        $menus = Menu::all();
+
+        return view('menus.index', compact('menus'));
+    }
+
+    public function thankyou() {
+        return view('thankyou');
+    }
+}
