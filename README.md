@@ -1,66 +1,46 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Restaurant Application - "Bite Me"
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+This application was created in order to pass design classes in Web Applications Programming in the senior year of IT studies.
+I used the PHP framework - Laravel.
 
-## About Laravel
+![Zrzut ekranu 2023-01-22 o 12 40 41](https://user-images.githubusercontent.com/118530164/213914155-2b580546-5311-45af-96b6-d7bfad3064d5.png)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+After opening the page, we are greeted by a landing page, and when we scroll down, we can see an example of the "about us" and "reviews" sections.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+![Zrzut ekranu 2023-01-22 o 12 41 37](https://user-images.githubusercontent.com/118530164/213914236-ffd33fd6-b95d-4d9a-be1b-8ef5230b8528.png)
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+The next tab is the menu, where we can see the currently offered dishes. New dishes can be added from the admin panel, which I will present below.
 
-## Learning Laravel
+![Zrzut ekranu 2023-01-22 o 12 41 55](https://user-images.githubusercontent.com/118530164/213914295-af9f3b42-eb95-4242-acc5-a1c6898e454e.png)
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Then we go to the "reservations" tab, where we can make a reservation for a given week for a specific number of people and at a specific table.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+![Zrzut ekranu 2023-01-22 o 12 42 11](https://user-images.githubusercontent.com/118530164/213914347-ca364d7f-01db-4b86-918c-c69a14b1b34d.png)
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+At the end we see the "admin" tab, where we can log in to the panel.
 
-## Laravel Sponsors
+![Zrzut ekranu 2023-01-22 o 12 42 30](https://user-images.githubusercontent.com/118530164/213914368-699c3086-cf5b-4b19-945b-18134a49248b.png)
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+Here, for example, the "menu" tab in the admin panel, where we can add, edit and delete dishes.
 
-### Premium Partners
+![Zrzut ekranu 2023-01-22 o 12 42 43](https://user-images.githubusercontent.com/118530164/213914397-b58c6def-ec28-4942-9362-fa13dfa538e7.png)
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+![Zrzut ekranu 2023-01-22 o 12 43 04](https://user-images.githubusercontent.com/118530164/213914405-a3bfcfc7-143d-43ff-a9f7-bf72a8bb9414.png)
 
-## Contributing
+Let's make an example reservation and see that it will appear in the admin panel.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+![Zrzut ekranu 2023-01-22 o 12 43 44](https://user-images.githubusercontent.com/118530164/213914433-5073d4f4-b673-48df-a5a5-9f8d70624f89.png)
 
-## Code of Conduct
+![Zrzut ekranu 2023-01-22 o 12 43 54](https://user-images.githubusercontent.com/118530164/213914440-160662ab-1865-426a-93f7-24e5a33aab88.png)
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+We will only be offered tables that are defined by the admin as available and have enough seats for the number of people we specify.
 
-## Security Vulnerabilities
+![Zrzut ekranu 2023-01-22 o 12 44 08](https://user-images.githubusercontent.com/118530164/213914468-0d005e7a-567c-4fb4-8eeb-bfa5bd1d1098.png)
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+![Zrzut ekranu 2023-01-22 o 12 44 31](https://user-images.githubusercontent.com/118530164/213914470-835191d4-0832-4549-9df5-c9a5759d9bbb.png)
 
-## License
+As we can see, the reservation has appeared.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+![Zrzut ekranu 2023-01-22 o 12 44 52](https://user-images.githubusercontent.com/118530164/213914484-cb297cc9-ec1e-4307-94e3-f87a2f3bdc41.png)
+
+The entire client-side application is fully responsive. The admin panel can also be operated on the phone, but I did not focus on it, because I decided that it should not be used in this way.
